@@ -1,0 +1,13 @@
+target/
+.mvn/
+mvnw
+mvnw.cmd
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+local.properties
+# Consider excluding sensitive configs, with an example file for reference
+# src/main/resources/application.properties
+# src/main/resources/application.yml

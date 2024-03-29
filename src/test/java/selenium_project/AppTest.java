@@ -19,11 +19,13 @@ public class AppTest
     {
         assertTrue( true );
     }
+    @Test
     public void test1(){
-        System.setProperty("webdriver.chrome.driver", "/Users/murodjoni/Desktop/Selenium_Automation_JAVA/drivers/chromedriver.exe");
+        System.setProperty("Webdriver.Chrome.driver", "/Users/murodjoni/Desktop/Selenium_Automation_JAVA/drivers/chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://freecrm.com/");
+        driver.get("https://turantech.com/");
+        driver.quit();
     }
 }

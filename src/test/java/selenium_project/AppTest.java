@@ -25,7 +25,7 @@ public class AppTest
 
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://turantech.com/");
+        driver.get("https://facebook.com/");
         driver.quit();
     }
 }

@@ -41,7 +41,7 @@ public class AppTest
         //Finding email adress Element and sending text to enter
         driver.findElement(By.id("emailAddress")).sendKeys("akhmatkhuja@skeep.com");
         //Finding element by XPATH and entering text as input
-        driver.findElement(By.xpath("//input[@id='phoneNumber']")).sendKeys("801-123-4567");
+        driver.findElement(By.xpath("//input[@id='phoneNumber']")).sendKeys("801-123-4568");
 
         driver.close();
     }

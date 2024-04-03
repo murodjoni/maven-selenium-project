@@ -35,11 +35,11 @@ public class AppTest
         driver.get(baseURL);
 
         //Finding firstName Element and sending text to enter
-        driver.findElement(By.id("firstName")).sendKeys("Akhmat");;
+        driver.findElement(By.id("firstName")).sendKeys("Raul");;
         //Finding astName Element and sending text to enter
-        driver.findElement(By.id("lastName")).sendKeys("Khuja");
+        driver.findElement(By.id("lastName")).sendKeys("Gonzalez");
         //Finding email adress Element and sending text to enter
-        driver.findElement(By.id("emailAddress")).sendKeys("akhmatkhuja@skeep.com");
+        driver.findElement(By.id("emailAddress")).sendKeys("raulgonzalez@skeep.com");
         //Finding element by XPATH and entering text as input
         driver.findElement(By.xpath("//input[@id='phoneNumber']")).sendKeys("801-123-4568");
 

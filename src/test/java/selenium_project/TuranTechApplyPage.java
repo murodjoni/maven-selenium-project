@@ -10,16 +10,8 @@ import java.time.Duration;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class TuranTechApplyPage 
 {
-    /**
-     * 
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
     @Test
     public void test1(){
         System.setProperty("Webdriver.Chrome.driver", "/Users/murodjoni/Desktop/Selenium_Automation_JAVA/drivers/chromedriver.exe");

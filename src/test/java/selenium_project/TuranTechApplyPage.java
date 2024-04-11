@@ -39,6 +39,7 @@ public class TuranTechApplyPage
         //Finding element by XPATH and entering text as input
         driver.findElement(By.xpath("//input[@id='phoneNumber']")).sendKeys("801-600-0900");
 
+
         //Click to expand Program type dropdown
         WebElement element = driver.findElement(By.cssSelector(".select-program button"));
         element.click();
@@ -62,7 +63,12 @@ public class TuranTechApplyPage
        // WebElement selectLocation = driver.findElement(By.cssSelector(".select-location ul li:last-child"));
         //selectLocation.click();
 
+<<<<<<< HEAD
         //Enter text in statement box
         driver.findElement(By.id("statementInput")).sendKeys("I want to get into tech because I heard it pays good money!");
+=======
+        
+        driver.close();
+>>>>>>> 04bbdbf52c8af064a39601439e90e9de644ec71a
     }
 }
